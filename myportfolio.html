@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="myportfolio.css" />
+  </head>
+  <body>
+    <nav class="navbar"  id="home">
+        <h1>My Portfolio</h1>
+        <ul class="navbar-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#projects">Gallery</a></li>
+          <li><a href="#feedback">Feedback</a></li>
+          <li><a href="#hire" id="hire-btn">Hire Me</a></li>
+         <li> <a href="https://github.com/huanhou">GitHub</a></li>
+          <li><button id="dark-mode-toggle">Dark Mode</button></li>
+        </ul>
+      </div>
+    </nav>
+   
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for projects..">
+
+<ul id="myUL">
+  <li><a href="#">Wikipedia</a></li>
+  <li><a href="#">Resume</a></li>
+
+  <li><a href="#">Le Meurice</a></li>
+  <li><a href="#">JIHC</a></li>
+
+  <li><a href="#">Cactus</a></li>
+  <li><a href="#">Taraz</a></li>
+  <li><a href="#">Festival</a></li>
+  <li><a href="#">Tea</a></li>
+  <li><a href="#">Concubine</a></li>
+
+  <li><a href="#">Opros</a></li>
+  <li><a href="#">Time</a></li>
+
+  <li><a href="#">ToDo</a></li>
+</ul>
+<div class="image-container" id="projects">
+
+  <div class="mySlides">
+    <div class="numbertext">1 / 15</div>
+      <img src="c:\Users\Moldir\Pictures\Screenshots\Снимок экрана 2024-03-26 135920.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 15</div>
+      <img src="c:\Users\Moldir\Pictures\Screenshots\Снимок экрана 2024-03-26 135951.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 15</div>
+      <img src="c:\Users\Moldir\Pictures\Screenshots\Снимок экрана 2024-03-26 140028.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 15</div>
+      <img src="c:\Users\Moldir\Pictures\Screenshots\Снимок экрана 2024-03-26 140045.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 15</div>
+      <img src="c:\Users\Moldir\Pictures\Screenshots\Снимок экрана 2024-03-26 140028.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 15</div>
+      <img src="c:\Users\Moldir\Pictures\Screenshots\Снимок экрана 2024-03-26 140112.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">7 / 15</div>
+      <img src="c:\Users\Moldir\Pictures\Screenshots\Снимок экрана 2024-03-26 140127.png" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">8 / 15</div>
+      <img src="c:\Users\Moldir\Pictures\Screenshots\Снимок экрана 2024-03-26 140258.png" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">9 / 15</div>
+      <img src="c:\Users\Moldir\Pictures\Screenshots\Снимок экрана 2024-03-26 140312.png" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">10 / 15</div>
+      <img src="c:\Users\Moldir\Pictures\Screenshots\Снимок экрана 2024-03-26 140237.png" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">11 / 15</div>
+      <img src="c:\Users\Moldir\Pictures\Screenshots\Снимок экрана 2024-03-26 140334.png" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">12 / 15</div>
+      <img src="c:\Users\Moldir\Pictures\Screenshots\Снимок экрана 2024-03-26 140349.png" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">13 / 15</div>
+      <img src="c:\Users\Moldir\Pictures\Screenshots\Снимок экрана 2024-03-26 140420.png" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">14 / 15</div>
+      <img src="c:\Users\Moldir\Pictures\Screenshots\Снимок экрана 2024-03-26 140500.png" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">15 / 15</div>
+      <img src="c:\Users\Moldir\Pictures\Screenshots\Снимок экрана 2024-03-26 140533.png" style="width:100%">
+  </div>
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="c:\Users\Moldir\Pictures\Screenshots\Снимок экрана 2024-03-26 135920.png" style="width:100%" onclick="currentSlide(1)" alt="1">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="c:\Users\Moldir\Pictures\Screenshots\Снимок экрана 2024-03-26 135951.png" style="width:100%" onclick="currentSlide(2)" alt="2">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="c:\Users\Moldir\Pictures\Screenshots\Снимок экрана 2024-03-26 140028.png" style="width:100%" onclick="currentSlide(3)" alt="3">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="c:\Users\Moldir\Pictures\Screenshots\Снимок экрана 2024-03-26 140012.png" style="width:100%" onclick="currentSlide(4)" alt="4">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="c:\Users\Moldir\Pictures\Screenshots\Снимок экрана 2024-03-26 140045.png" style="width:100%" onclick="currentSlide(5)" alt="5">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="c:\Users\Moldir\Pictures\Screenshots\Снимок экрана 2024-03-26 140112.png" style="width:100%" onclick="currentSlide(6)" alt="6">
+    </div>
+     <div class="column">
+      <img class="demo cursor" src="c:\Users\Moldir\Pictures\Screenshots\Снимок экрана 2024-03-26 140127.png" style="width:100%" onclick="currentSlide(7)" alt="7">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="c:\Users\Moldir\Pictures\Screenshots\Снимок экрана 2024-03-26 140258.png" style="width:100%" onclick="currentSlide(8)" alt="8">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="c:\Users\Moldir\Pictures\Screenshots\Снимок экрана 2024-03-26 140312.png" style="width:100%" onclick="currentSlide(9)" alt="9">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="c:\Users\Moldir\Pictures\Screenshots\Снимок экрана 2024-03-26 140237.png" style="width:100%" onclick="currentSlide(10)" alt="10">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="c:\Users\Moldir\Pictures\Screenshots\Снимок экрана 2024-03-26 140334.png" style="width:100%" onclick="currentSlide(11)" alt="11">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="c:\Users\Moldir\Pictures\Screenshots\Снимок экрана 2024-03-26 140349.png" style="width:100%" onclick="currentSlide(12)" alt="12">
+    </div>
+     <div class="column">
+      <img class="demo cursor" src="c:\Users\Moldir\Pictures\Screenshots\Снимок экрана 2024-03-26 140420.png" style="width:100%" onclick="currentSlide(13)" alt="13">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="c:\Users\Moldir\Pictures\Screenshots\Снимок экрана 2024-03-26 140500.png" style="width:100%" onclick="currentSlide(14)" alt="14">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="c:\Users\Moldir\Pictures\Screenshots\Снимок экрана 2024-03-26 140533.png" style="width:100%" onclick="currentSlide(15)" alt="15">
+    </div>
+  </div>
+</div>
+      <section id="feedback">
+        <h2>Feedback</h2>
+        <div class="tabs">
+          <h3 class="active">Person1</h3>
+          <h3>Person2</h3>
+          <h3>Person3</h3>
+        </div>
+        <div class="tab-content">
+          <div class="active">
+            <p>
+              Your dedication to detail and adherence to coding standards are
+              commendable. Your code is well-structured and easy to follow,
+              which greatly enhances its readability and maintainability.
+              However, I noticed a few instances where variable names could be
+              more descriptive, and comments could be added to clarify complex
+              sections. Keep refining your attention to detail, and strive for
+              consistency throughout your codebase. Overall, excellent work in
+              maintaining clean and organized code.
+            </p>
+          </div>
+          <div>
+            <p>
+              Your problem-solving skills continue to impress me. You
+              demonstrate a strong ability to tackle complex challenges with
+              innovative solutions. I particularly liked how you approached the
+              recent project, where you implemented a unique feature that
+              significantly enhanced user experience. However, I encourage you
+              to explore alternative solutions more extensively before settling
+              on a final implementation. This will help broaden your perspective
+              and potentially uncover even more creative approaches. Keep
+              pushing the boundaries of your creativity; it's a valuable asset
+              in the field of web development.
+            </p>
+          </div>
+          <div>
+            <p>
+              Your teamwork and communication skills have shown noticeable
+              improvement. You actively participate in group discussions,
+              contribute valuable insights, and effectively communicate your
+              ideas to team members. However, there were a couple of instances
+              where you could have been more proactive in seeking clarification
+              or providing updates on your progress. Remember, clear and timely
+              communication is crucial for ensuring smooth collaboration within
+              a team. Continue to actively engage with your peers and practice
+              concise communication to foster better collaboration and project
+              outcomes. Overall, good progress in this area, but there's always
+              room for refinement.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="container" id="hire">
+    <div class="text">You can hire me there</div>
+    <button id="openModalBtn">Open Hire Form</button>
+</div>
+
+<div id="hireModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <form action="#" id="hireForm">
+            <div class="form-row">
+                <div class="input-data">
+                    <input type="text" required>
+                    <div class="underline"></div>
+                    <label for="">First Name</label>
+                </div>
+                <div class="input-data">
+                    <input type="text" required>
+                    <div class="underline"></div>
+                    <label for="">Last Name</label>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="input-data">
+                    <input type="text" required>
+                    <div class="underline"></div>
+                    <label for="">Email Address</label>
+                </div>
+                <div class="input-data">
+                    <input type="text" required>
+                    <div class="underline"></div>
+                    <label for="">Company</label>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="input-data textarea">
+                    <textarea rows="8" cols="80" required></textarea>
+                    <br />
+                    <div class="underline"></div>
+                    <label for="">Describe project</label>
+                    <br />
+                    <div class="form-row submit-btn">
+                        <div class="input-data">
+                            <div class="inner"></div>
+                            <input type="submit" value="submit">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+    
+    </footer>
+
+    <script src="myportfolio.js"></script>
+  </body>
+</html>
